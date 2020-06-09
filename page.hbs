@@ -42,6 +42,8 @@ into the {body} of the default.hbs template --}}
             {{/if}}
 
             <section class="post-full-content">
+                {{> table-of-contents}}
+
                 <div class="post-content">
                     {{content}}
                 </div>
